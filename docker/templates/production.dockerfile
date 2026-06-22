@@ -1,5 +1,5 @@
 # Production environment Dockerfile template
-ARG PYTHON_VERSION=public.ecr.aws/docker/library/python:3
+ARG PYTHON_VERSION=registry.access.redhat.com/ubi9/python-311:1-1779945715
 ARG DEBIAN_MIRROR="http://deb.debian.org/debian testing main"
 ARG PYTHON_PACKAGES="httpx==0.27.2 requests==2.33.0 jinja2==3.1.6 PySocks httpx[socks]"
 ARG NODEJS_VERSION=v20.11.1
